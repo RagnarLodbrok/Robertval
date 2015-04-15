@@ -1,16 +1,61 @@
+/* tablette */
+@media screen and (min-width: 728px) and (max-width: 1049px){}
+
+/* desktop  */
+@media screen and (min-width: 1050px){}
+
+
+/*-----------------------------------------------*/
+
 body{
 	margin:0 auto;
 	padding:0;
-}
-
-.wrap{
-	padding: 10%;
+	font-family: 'Open Sans', sans-serif;
 }
 
 .content{
-	background-color: grey;
+	background-color: none;	
 	margin: auto;
 	height:100vh;
+	width:100%;
 	text-align: center;
+}
+
+.wrap{
+	margin-top: 25vh;
+}
+
+.suivi-button{
+	border:3px grey solid; 
+	padding:10px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color:#000;
+}
+
+.suivi-button:hover{
+	border:3px grey solid; 
+	background-color: grey;
+	padding:10px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color:#fff;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+
+}
+
+
+ul{
+	margin-top: 40px;
+}
+
+li{
+	list-style: none;
+	display:inline;
+	padding: 0 15px;
 }
 
