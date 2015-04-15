@@ -23,7 +23,7 @@ body{
 }
 
 .wrap{
-	margin-top: 25vh;
+	padding-top: 20vh;
 }
 
 .suivi-button{
@@ -63,7 +63,7 @@ li{
 
 /*-------------------------input-----------------------*/
 #input-hide{
-	width:36%;
+	width:390px;
 	height:70px;
 	margin: auto;
 	margin-top:50px;
@@ -100,9 +100,9 @@ li{
 /*------------------------------*/
 .confirmer{
 	width: 100%;
-	height: 48px;
+	height: 47px;
 	margin-top: 25px;
-	padding-top: 9px;
+	padding-top: 8px;
 	background-color: grey;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 18px;
@@ -113,9 +113,9 @@ li{
 
 .confirmer:hover{
 	width: 100%;
-	height: 48px;
+	height: 47px;
 	margin-top: 25px;
-	padding-top: 9px;
+	padding-top: 8px;
 	background-color: transparent;
 	border:3px grey solid;
 	font-family: 'Open Sans', sans-serif;
