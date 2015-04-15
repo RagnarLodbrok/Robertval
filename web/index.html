@@ -21,8 +21,11 @@
 		  	<div class="wrap">		  	
 			  	<img src="img/logo/logo.svg" width="200px;" />
 			  	<ul>
-					<li class="suivi"><a href="#" class="suivi-button">Mode suivi</a><li>
-					<li class="suivi"><a href="#" class="suivi-button">Mode non suivi</a></li>
+					<li class="suivi"><a href="#" class="suivi-button" id="show-input">Mode suivi</a><li>
+					<li class="suivi"><a href="#" class="suivi-button" id="hide-input">Mode non suivi</a></li>
+					<div id="input-hide">
+						<input class="code" type="password" name="password" placeholder="code suivi"/>
+					</div>
 			  	</ul>
 			  </div>
 		  	</div>
@@ -30,6 +33,18 @@
      
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
+    <script>
+		$(document).ready(function(){
+			$("#input-hide").hide();
+			$("#show-input").click(function(){
+		        $("#input-hide").show();
+		    });
+		    $("#hide-input").click(function(){
+		        $("#input-hide").hide();
+		    });
+		    
+		});
+		</script>
     <script>
       $(document).foundation();
     </script>
