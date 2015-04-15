@@ -1,0 +1,131 @@
+/* tablette */
+@media screen and (min-width: 728px) and (max-width: 1049px){}
+
+/* desktop  */
+@media screen and (min-width: 1050px){}
+
+
+/*-----------------------------------------------*/
+
+body{
+	margin:0 auto;
+	padding:0;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #ffd980;
+}
+
+.content{
+	background-color: none;	
+	margin: auto;
+	height:100vh;
+	width:100%;
+	text-align: center;	
+}
+
+.wrap{
+	padding-top: 20vh;
+}
+
+.suivi-button{
+	border-radius:10px;
+	border:3px grey solid; 
+	padding:10px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color:#000;
+}
+
+.suivi-button:hover{
+	border-radius:10px;
+	border:3px grey solid; 
+	background-color: grey;
+	padding:10px 25px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color:#fff;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
+ul{
+	margin-top: 40px;
+}
+
+li{
+	list-style: none;
+	display:inline;
+	padding: 0 15px;
+}
+
+/*-------------------------input-----------------------*/
+#input-hide{
+	width:390px;
+	height:70px;
+	margin: auto;
+	margin-top:50px;
+}
+
+*.code{
+	height: 35%;
+	width: 170px;
+	background-color:rgba(255,255,255,0);
+	color:red;
+	border: grey 3px solid;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	-webkit-transition: all 0.20s ease-in-out;
+    -moz-transition: all 0.20s ease-in-out;
+    -ms-transition: all 0.20s ease-in-out;
+    -o-transition: all 0.20s ease-in-out;
+    outline: none;
+    padding-left: 30px;
+}
+
+::-webkit-input-placeholder{
+	color:grey;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+}
+
+.code:focus, textarea:focus{
+	box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);	
+	
+}
+
+
+/*------------------------------*/
+.confirmer{
+	width: 100%;
+	height: 47px;
+	margin-top: 25px;
+	padding-top: 8px;
+	background-color: grey;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	
+	border:3px grey solid;
+}
+
+.confirmer:hover{
+	width: 100%;
+	height: 47px;
+	margin-top: 25px;
+	padding-top: 8px;
+	background-color: transparent;
+	border:3px grey solid;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: grey;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+
