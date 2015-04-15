@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Balance Roberval</title>
+
+    <!-- Bootstrap -->
+    
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css"/>
+        
+   
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'/>
+    
+  </head>
+  <body>
+  <section class="container_fond">
+    <section class="container_menu"><div class="button_return">Question</div>
+    </section>
+    <section class="container_menu_poids">
+    <div class="fond_menu_poids" >
+     
+        <div><h3>1</h3></div>
+        <div><h3>2</h3></div>
+        <div><h3>3</h3></div>
+        <div><h3>4</h3></div>
+        <div><h3>5</h3></div>
+        <div><h3>6</h3></div>
+        
+    </div>
+    </section>
+    <section class="container_balance"><div class="balance"><img src="img/balance_merche.svg"></div>
+    </section>
+    <section class="container_objets">
+    </section>
+  </section>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="/js/slick/slick.min.js"></script>
+  <script type="text/javascript" src="test.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.fond_menu_poids').slick({
+      dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      adaptiveHeight: true
+});
+  </script>
+
+
+
+  </body>
+
+</html>

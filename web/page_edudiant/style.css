@@ -1,0 +1,52 @@
+.container_fond{
+    width:100%;
+    height: 100%;
+    background-image: url("img/fond_marche.svg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    
+}
+
+.container_menu{
+	height: 25%;
+	padding:2% 2% 0 2%;
+
+}
+
+.container_menu_poids{
+	padding: 1% 8% 1% 8%;
+
+}
+
+.container_balance{
+
+}
+
+.container_objets{
+
+}
+
+.button_return{
+	background-color: #e9544f;
+	padding: 10px;
+	width: 15.3%;
+	border-radius: 10px;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif, 700;
+	color: #ffffff;
+	text-align: center;
+
+}
+
+.fond_menu_poids{
+	width: 100%;
+	height: 100%;
+	background-color: #ffffff;
+	border-radius: 10px;
+	opacity: 0.5;
+}
+
+.balance{
+	text-align: center;
+
+}
