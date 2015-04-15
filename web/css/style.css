@@ -11,6 +11,7 @@ body{
 	margin:0 auto;
 	padding:0;
 	font-family: 'Open Sans', sans-serif;
+	background-color: #ffd980;
 }
 
 .content{
@@ -18,7 +19,7 @@ body{
 	margin: auto;
 	height:100vh;
 	width:100%;
-	text-align: center;
+	text-align: center;	
 }
 
 .wrap{
@@ -47,7 +48,6 @@ body{
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	transition: all 0.5s;
-
 }
 
 
@@ -66,14 +66,14 @@ li{
 	width:36%;
 	height:70px;
 	margin: auto;
-	margin-top:70px;
+	margin-top:50px;
 }
 
-*.input{
-	height: 70px;
-	width: 70px;
+*.code{
+	height: 35%;
+	width: 170px;
 	background-color:rgba(255,255,255,0);
-	color:white;
+	color:red;
 	border: grey 3px solid;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -82,7 +82,7 @@ li{
     -ms-transition: all 0.20s ease-in-out;
     -o-transition: all 0.20s ease-in-out;
     outline: none;
-    padding-left: 20px;
+    padding-left: 30px;
 }
 
 ::-webkit-input-placeholder{
@@ -96,5 +96,36 @@ li{
 	
 }
 
+
+/*------------------------------*/
+.confirmer{
+	width: 100%;
+	height: 48px;
+	margin-top: 25px;
+	padding-top: 9px;
+	background-color: grey;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	
+	border:3px grey solid;
+}
+
+.confirmer:hover{
+	width: 100%;
+	height: 48px;
+	margin-top: 25px;
+	padding-top: 9px;
+	background-color: transparent;
+	border:3px grey solid;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	color: grey;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
+}
 
 
