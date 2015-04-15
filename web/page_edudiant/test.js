@@ -1,10 +1,11 @@
+
 $(document).ready(function(){
-  $('.fond_menu_poids').slick({
-    slidesToShow: 3, 
-    slidesToScroll: 3,
-    dots: false,
-  	infinite: true,
-  	speed: 300,
-  	adaptiveHeight: true
-  });
+	$('container_menu_poids').slick({
+	  dots: false,
+	  infinite: true,
+	  speed: 300,
+	  slidesToShow: 3,
+	  adaptiveHeight: true,
+	  slidesToScroll: 3
+	});
 });
