@@ -1,0 +1,36 @@
+// Liste des éléments pour le jeu
+
+{	
+	[
+	'Pomme' : {'poids' : '150', 'catégorie' : '1'},
+	'Fraise' : {'poids' : '10', 'catégorie' : '1'},
+	'Aubergine' : {'poids' : '82', 'catégorie' : '1'},
+	'Citron' : {'poids' : '127', 'catégorie' : '1'},
+	'Poire' : {'poids' : '120', 'catégorie' : '1'},
+	'Citrouille' : {'poids' : '5000', 'catégorie' : '1'},
+	'Oeufs' : {'poids' : '55', 'catégorie' : '1'},
+	'Pastèque' : {'poids' : '3390', 'catégorie' : '1'},
+	'Melon' : {'poids' : '400', 'catégorie' : '1'},
+	'Chou Vert' : {'poids' : '2038', 'catégorie' : '1'},
+	'Dictionnaire' : {'poids' : '3250', 'catégorie' : '2'},
+	'Stylo' : {'poids' : '0.4', 'catégorie' : '2'},
+	'Sac à dos' : {'poids' : '8000', 'catégorie' : '2'},
+	'Tablette' : {'poids' : '570', 'catégorie' : '2'},
+	'Ordinateur portable' : {'poids' : '2500', 'catégorie' : '2'},
+	'Calculatrice' : {'poids' : '137', 'catégorie' : '2'},
+	'Chaise' : {'poids' : '2600', 'catégorie' : '2'},
+	'Lampe' : {'poids' : '3100', 'catégorie' : '2'},
+	'Chausure de sport' : {'poids' : '350', 'catégorie' : '2'},
+	'Ballon de basket' : {'poids' : '600', 'catégorie' : '2'},
+	'Loup' : {'poids' : '28000', 'catégorie' : '3'},
+	'Eléphant' : {'poids' : '7400000', 'catégorie' : '3'},
+	'Cheval' : {'poids' : '450000', 'catégorie' : '3'},
+	'Singe' : {'poids' : '50000', 'catégorie' : '3'},
+	'Lion' : {'poids' : '381000', 'catégorie' : '3'},
+	'Phacochère' : {'poids' : '158000', 'catégorie' : '3'},
+	'Crocodile' : {'poids' : '680000', 'catégorie' : '3'},
+	'Girafe' : {'poids' : '953000', 'catégorie' : '3'},
+	'Ours' : {'poids' : '852000', 'catégorie' : '3'},
+	'Hippopotame' : {'poids' : '3570000', 'catégorie' : '3'}
+	]
+}
