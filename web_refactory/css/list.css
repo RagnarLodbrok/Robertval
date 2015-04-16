@@ -43,7 +43,7 @@ li{
 	display: inline;
 }
 
-li > img{
+a > img{
 	float: right;
 	margin: 10px 20px 0 0;
 }
